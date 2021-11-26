@@ -130,9 +130,9 @@
 # a="Mritunjay"
 # print(a)
 # print(a[0])
-a='''Mritunjay
-Kumar 
-Tiwari \t '''
+# a='''Mritunjay
+# Kumar 
+# Tiwari \t '''
 # print(a)
 # print(a[0])
 # print(a[-1])
@@ -141,4 +141,12 @@ Tiwari \t '''
 # print(a[:2])
 # print(a[:])
 # print(a*3)
-print(len(a))
+# print(len(a))
+
+# bytes data type
+a=[1,2,3,4]
+print(type(a))
+x=bytes(a)
+print(type(x))
+# x[5]=5 It will show an error
+for i in x : print(i)

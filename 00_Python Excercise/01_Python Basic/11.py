@@ -1,0 +1,1 @@
+print(abs.__dir__)
