@@ -1,3 +1,4 @@
+
 # int data type
 # a=10
 # b=10
@@ -76,11 +77,9 @@
 # a=0b11
 # print(hex(a))
 
-# Octal to Hexa decimal 
+# Octal to Hexa decimal
 # a=0b1
 # print(hex(a))
-
-
 
 
 # float data type
@@ -131,7 +130,7 @@
 # print(a)
 # print(a[0])
 # a='''Mritunjay
-# Kumar 
+# Kumar
 # Tiwari \t '''
 # print(a)
 # print(a[0])
@@ -144,9 +143,86 @@
 # print(len(a))
 
 # bytes data type
-a=[1,2,3,4]
-print(type(a))
-x=bytes(a)
-print(type(x))
+# a=[1,2,3,4]
+# print(type(a))
+# x=bytes(a)
+# print(type(x))
 # x[5]=5 It will show an error
-for i in x : print(i)
+# for i in x : print(i)
+
+# bytearray data type
+# a=[1,2,3,4,5]
+# b=bytearray(a)
+# print(b)
+# for i in b:
+#     print(i)
+# b[0]=2
+# print("\n")
+# for i in b:
+#     print(i)
+
+
+# list data type
+# lst=[1,2,'jay',2.4]
+# print(type(lst))
+# print(lst)
+# print(lst[0])
+# print(lst[3])
+# print(lst[4]) It will show an error
+
+# tuple data type
+# t = (1, 2, "jay", 2.4)
+# print(type(t))
+# t[0]=5 It will show an error
+# t.append(10) It will show an error
+# t.remove(1) It will show an error
+
+# range data type
+# form 1
+# r=range(10)
+# for i in r:
+#     print(i)
+
+# form 2
+# r=range(1,11)
+# for i in r:
+#     print(i)
+
+# form 3
+# r=range(2,22,2)
+# for i in r:
+#     print(i)
+
+# print(r[1])
+# r[0]=100 It will show an error
+# lst=list(range(10))
+# print(lst)
+
+# set data type
+# s={1,2,3,'jay'}
+# print(type(s))
+# for i in s:
+#     print(i)
+# s.add(4)
+# s.remove('jay')
+# print(s)
+# print(s[0]) It will show an error
+
+# frozenset data type
+# s={1,2,3,4}
+# fs=frozenset(s)
+# print(type(fs))
+# print(fs)
+# for i in fs:
+#     print(i)
+# fs.add(5) It will show an error
+
+# dict data type
+d={1:'jay',2:'shiva',3:'naga'}
+# print(d)
+# print(type(d/))
+# for i in d:
+#     print(i)
+
+d[1]='Mritunjay'
+print(d)
