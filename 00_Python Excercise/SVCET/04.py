@@ -1,0 +1,8 @@
+lst=list(input("Enter number :"))
+num1=str("%s%s%s"%(lst[0],lst[1],lst[2]))
+num2=str("%s%s%s%s"%(lst[0],lst[1],lst[2],lst[3]))
+num3=str("%s%s%s%s%s"%(lst[0],lst[1],lst[2],lst[3],lst[4]))
+print(num1)
+print(num2)
+print(num3)
+# print(lst[0],lst[1],lst[2])
