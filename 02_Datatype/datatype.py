@@ -218,11 +218,15 @@
 # fs.add(5) It will show an error
 
 # dict data type
-d={1:'jay',2:'shiva',3:'naga'}
+# d={1:'jay',2:'shiva',3:'naga'}
 # print(d)
 # print(type(d/))
 # for i in d:
 #     print(i)
 
-d[1]='Mritunjay'
-print(d)
+# d[1]='Mritunjay'
+# print(d)
+
+# None data type
+a=None
+print(a)
